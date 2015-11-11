@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:orientation="horizontal"
+    >
+<RelativeLayout
+    android:background="@drawable/selector_button"
+    android:layout_width="match_parent"
+    android:layout_height="50dp">
+    <ImageView
+        android:id="@+id/friend_pic"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="10dp"
+        android:layout_width="30dp"
+        android:src="@drawable/default_head"
+        android:layout_height="30dp" />
+    <TextView
+        android:id="@+id/friend_nickname"
+        android:layout_centerVertical="true"
+        android:text="用户名"
+        android:textSize="15sp"
+        android:textColor="#5b5b5b"
+        android:layout_marginLeft="10dp"
+        android:layout_toRightOf="@id/friend_pic"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+</RelativeLayout>
+
+</LinearLayout>

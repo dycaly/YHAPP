@@ -1,0 +1,22 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ad_rl"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <com.example.myskety.my_application.View.CycleViewPager
+        android:id="@+id/id_image_cycle_viewpager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+    </com.example.myskety.my_application.View.CycleViewPager>
+
+    <LinearLayout
+        android:id="@+id/id_image_cycle_viewGroup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="8dp"
+        android:gravity="center"
+        android:orientation="horizontal" >
+    </LinearLayout>
+
+</RelativeLayout>

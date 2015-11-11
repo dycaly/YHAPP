@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item type="drawable" name="transparent">#00000000</item>
+    <item type="drawable" name="button_up_gray">#ffffff</item>
+    <item type="drawable" name="button_down_gray">#eee</item>
+    <item type="drawable" name="text_color">#5b5b5b</item>
+    <item type="drawable" name="theme_color">#FF0CB19B</item>
+    <item type="drawable" name="theme_color_n">#7F0CB19B</item>
+</resources>

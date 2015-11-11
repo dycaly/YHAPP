@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:hayman = "http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#f2f2f2"
+    android:orientation="vertical">
+    <include layout="@layout/titlebar_sort"
+        android:id="@+id/tb_sort"
+        />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:background="#ffffff"
+        android:layout_width="match_parent"
+        android:layout_height="40dp">
+
+        <com.example.myskety.my_application.View.MyTextView
+            android:id="@+id/id_life"
+            android:layout_height="match_parent"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:padding="5dp"
+            hayman:m_icon="@drawable/icon_1_n"
+            hayman:m_color="@color/theme_color"
+            hayman:m_text="生活"
+            hayman:m_text_size="18sp"
+            />
+        <com.example.myskety.my_application.View.MyTextView
+            android:id="@+id/id_book"
+            android:layout_height="match_parent"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:padding="5dp"
+            hayman:m_icon="@drawable/icon_5_n"
+            hayman:m_color="@color/theme_color"
+            hayman:m_text="图书"
+            hayman:m_text_size="18sp"
+            />
+        <com.example.myskety.my_application.View.MyTextView
+            android:id="@+id/id_study"
+            android:layout_height="match_parent"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:padding="5dp"
+            hayman:m_icon="@drawable/icon_5_n"
+            hayman:m_color="@color/theme_color"
+            hayman:m_text="学习"
+            hayman:m_text_size="18sp"
+            />
+        <com.example.myskety.my_application.View.MyTextView
+            android:id="@+id/id_elect"
+            android:layout_height="match_parent"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:padding="5dp"
+            hayman:m_icon="@drawable/icon_5_n"
+            hayman:m_color="@color/theme_color"
+            hayman:m_text="电子"
+            hayman:m_text_size="18sp"
+            />
+        <com.example.myskety.my_application.View.MyTextView
+            android:id="@+id/id_other"
+            android:layout_height="match_parent"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:padding="5dp"
+            hayman:m_icon="@drawable/icon_5_n"
+            hayman:m_color="@color/theme_color"
+            hayman:m_text="其他"
+            hayman:m_text_size="18sp"
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:background="#eee"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"></LinearLayout>
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/id_ViewPager"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        >
+    </android.support.v4.view.ViewPager>
+
+
+</LinearLayout>
